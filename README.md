@@ -25,6 +25,15 @@ Otaining Ubuntu and setting up your Ubuntu user account (step 5 and 6), you suce
 
 Restart PC and Docker can be run through this way.
 
+##### Docker Test Installation
+To simpy test, try in cmd that
+> docker -v
+to get short information about Docker version
+can also be:
+
+> docker run hello-world
+so the containers from this "image" will be established so that the process can be executed.
+
 
 #### Docker Compose
 ##### Install
@@ -49,6 +58,13 @@ After this, follow the guide down this to complete the installation.
 ##### Quick start Airflow
 Can do this by following tutorials 
 > Github: https://github.com/DarrenTsungjenWu/airflow-tutorial
+
 and subsequent Youtube tutorial
 > https://www.youtube.com/watch?v=vvr_WNzEXBE&ab_channel=TuanVu
+
+to clone the repo by Git Bash after which change directory to airflow-tutorial
+> cd airflow-tutorial
+> run docker-compose up
+
+
 
