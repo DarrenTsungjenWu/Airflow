@@ -25,8 +25,9 @@ Otaining Ubuntu and setting up your Ubuntu user account (step 5 and 6), you suce
 
 Restart PC and Docker can be run through this way.
 
+
 ##### Docker Test Installation
-To simpy test, try in cmd that
+To simpy test Docker, try in cmd that
 > docker -v
 to get short information about Docker version
 can also be:
@@ -37,13 +38,15 @@ so the containers from this "image" will be established so that the process can 
 
 #### Docker Compose
 ##### Install
-> Visit: https://docs.docker.com/compose/install/
-Go down and select Linux tab is Linux is used.
+> Visit official documentation: https://docs.docker.com/compose/install/
+Go down and select Linux tab if Linux is used.
 
 Run the command
 > curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
 or
-sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+> sudo curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 in terminal to get latest/specific release of Docker Compose.
 
@@ -51,20 +54,28 @@ After this, follow the guide down this to complete the installation.
 
 
 #### Python Package Index
+> pip install apache-airflow
+via python terminal
 
+official doc. 
+> https://pypi.org/project/apache-airflow/
 
 
 #### Airflow
 ##### Quick start Airflow
-Can do this by following tutorials 
+To clone the repo by "Git Bash" after which one changes directory to airflow-tutorial
+> cd airflow-tutorial
+> run docker-compose up
+
+Can do these by following tutorials 
 > Github: https://github.com/DarrenTsungjenWu/airflow-tutorial
 
 and subsequent Youtube tutorial
 > https://www.youtube.com/watch?v=vvr_WNzEXBE&ab_channel=TuanVu
 
-to clone the repo by Git Bash after which change directory to airflow-tutorial
-> cd airflow-tutorial
-> run docker-compose up
+Finally, check how airflow works by visiting
+> http://localhost:8080
+
 
 
 
