@@ -48,7 +48,7 @@ After this, follow the guide down this to complete the installation.
 #### Airflow
 ##### Quick start Airflow
 Can do this by following tutorials 
-Github > https://github.com/DarrenTsungjenWu/airflow-tutorial
+> Github: https://github.com/DarrenTsungjenWu/airflow-tutorial
 and subsequent Youtube tutorial
 > https://www.youtube.com/watch?v=vvr_WNzEXBE&ab_channel=TuanVu
 
