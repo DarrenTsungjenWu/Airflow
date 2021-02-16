@@ -17,9 +17,9 @@ Install it.
 
 When Docker is going to be run, a common issue will be shown that WSL2 installation is not complete. This happens due to old version of WSL2 to be executed.
 
-For this case, click into the link shown in the pop-out warning window: https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+For this case, click into the link shown in the pop-out warning window, and follow it: https://docs.microsoft.com/zh-tw/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
 
-Starting from step 4, we download the new version of WSL2 and then follow the guide in it. (For Windows System, Ubuntu is often used to run Docker on Linux. See step 5).
+Starting from step 4 in that, one downloads the most current version of WSL2 (For Windows System, Ubuntu is often used to run Docker on Linux. See step 5).
 
 Otaining Ubuntu and setting up your Ubuntu user account (step 5 and 6), you sucessfully access Linux version that is integrated with Windows System.
 
@@ -30,7 +30,8 @@ Restart PC and Docker can be run through this way.
 To simpy test Docker, try in cmd that
 > docker -v
 to get short information about Docker version
-can also be:
+
+can also be trying:
 
 > docker run hello-world
 so the containers from this "image" will be established so that the process can be executed.
@@ -50,7 +51,7 @@ or
 
 in terminal to get latest/specific release of Docker Compose.
 
-After this, follow the guide down this to complete the installation. 
+After this, follow the guide down below this to complete the installation. 
 
 
 #### Python Package Index
@@ -75,7 +76,3 @@ and subsequent Youtube tutorial
 
 Finally, check how airflow works by visiting
 > http://localhost:8080
-
-
-
-
