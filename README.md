@@ -3,7 +3,7 @@
 
 ### Quick Note:
 
-#### Docker 
+### Docker 
 ##### Install
 > Go to and download
 https://www.docker.com/get-started
@@ -37,7 +37,7 @@ can also be trying:
 so the containers from this "image" will be established so that the process can be executed.
 
 
-#### Docker Compose
+### Docker Compose
 ##### Install
 > Visit official documentation: https://docs.docker.com/compose/install/
 Go down and select Linux tab if Linux is used.
@@ -54,15 +54,16 @@ in terminal to get latest/specific release of Docker Compose.
 After this, follow the guide down below this to complete the installation. 
 
 
-#### Python Package Index
+### Python Package Index
 > pip install apache-airflow
+
 via python terminal
 
 official doc. 
 > https://pypi.org/project/apache-airflow/
 
 
-#### Airflow
+### Airflow
 ##### Quick start Airflow
 To clone the repo by "Git Bash" after which one changes directory to airflow-tutorial
 > cd airflow-tutorial
