@@ -21,7 +21,7 @@ For this case, click into the link shown in the pop-out warning window, and foll
 
 Starting from step 4 in that, one downloads the most current version of WSL2 (For Windows System, Ubuntu is often used to run Docker on Linux. See step 5).
 
-Otaining Ubuntu and setting up your Ubuntu user account (step 5 and 6), you sucessfully access Linux version that is integrated with Windows System.
+Otaining Ubuntu and setting up your Ubuntu user account (step 5 and 6), you sucessfully access Linux version that is integrated with Windows System using Ubuntu.
 
 Restart PC and Docker can be run through this way.
 
@@ -42,7 +42,7 @@ so the containers from this "image" will be established so that the process can 
 > Visit official documentation: https://docs.docker.com/compose/install/
 Go down and select Linux tab if Linux is used.
 
-Run the command
+Run the command on Ubuntu
 > curl -L "https://github.com/docker/compose/releases/download/1.28.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 or
@@ -51,7 +51,13 @@ or
 
 in terminal to get latest/specific release of Docker Compose.
 
-After this, follow the guide down below this to complete the installation. 
+And apply executable permission
+> sudo chmod +x /usr/local/bin/docker-compose
+
+If all is already applied, try in Ubuntu that
+> docker-compose --version
+
+to test the docker-compose installation.
 
 
 ### Python Package Index
