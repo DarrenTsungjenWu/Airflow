@@ -71,11 +71,16 @@ official doc.
 
 ### Airflow
 ##### Quick start Airflow
-To clone the repo by "Git Bash" after which one changes directory to airflow-tutorial
+To clone the repo by "Git Bash" 
+> git clone https://github.com/DarrenTsungjenWu/airflow-tutorial.git
+
+(HTTPS)
+
+after this one changes directory of bash to airflow-tutorial
 > cd airflow-tutorial
 > run docker-compose up
 
-Can do these by following tutorials 
+For detailed information about above steps, can see following tutorials 
 > Github: https://github.com/DarrenTsungjenWu/airflow-tutorial
 
 and subsequent Youtube tutorial
