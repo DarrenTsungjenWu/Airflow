@@ -78,6 +78,7 @@ To clone the repo by "Git Bash"
 
 after this one changes directory of bash to airflow-tutorial
 > cd airflow-tutorial
+
 > run docker-compose up
 
 For detailed information about above steps, can see following tutorials 
