@@ -42,6 +42,7 @@ so the containers from this "image" will be established so that the process can 
 ### Docker Compose
 ##### Install
 > Visit official documentation: https://docs.docker.com/compose/install/
+
 Go down and select Linux tab if Linux is used.
 
 Run the command on Ubuntu
