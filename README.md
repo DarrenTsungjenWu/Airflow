@@ -32,7 +32,7 @@ To simpy test Docker, try in cmd that
 
 to get short information about Docker version
 
-can also be trying:
+can also trying:
 
 > docker run hello-world
 
