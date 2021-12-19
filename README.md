@@ -73,7 +73,7 @@ official doc.
 
 
 ### Airflow
-##### Quick start Airflow
+##### Quick start Airflow - an example airflow package below
 To clone the repo by "Git Bash" 
 > git clone https://github.com/DarrenTsungjenWu/airflow-tutorial.git
 
