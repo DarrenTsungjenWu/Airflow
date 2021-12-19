@@ -29,11 +29,13 @@ Restart PC and Docker can be run through this way.
 ##### Docker Test Installation
 To simpy test Docker, try in cmd that
 > docker -v
+
 to get short information about Docker version
 
 can also be trying:
 
 > docker run hello-world
+
 so the containers from this "image" will be established so that the process can be executed.
 
 
